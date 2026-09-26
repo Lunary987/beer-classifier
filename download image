@@ -19,7 +19,7 @@ transform = v2.Compose([
 ])
 
 
-image = Image.open(r'YOUR FILE IS HERE').convert('RGB')
+image = Image.open(r'YOUR FILE HERE').convert('RGB')
 tensor = transform(image)
 input_tensor = tensor.unsqueeze(0)
 
