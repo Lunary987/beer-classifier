@@ -24,7 +24,7 @@ image = Image.open('YOUR FILE IS HERE').convert('RGB')
 tensor = transform(image)
 input_tensor = tensor.unsqueeze(0)
 
-WEIHTS_URL = https://github.com/user-attachments/files/32686497/Trained_model_weights.txt
+WEIHTS_URL = https://github.com/Lunary987/beer-classifier/releases/tag/Trained_model_weights
 WEIGTHS_PATH = "model_weights.pth"   #  ИМЯ файла на вашем диске
 
 if not os.path.exists(WEIGHTS_PATH):    
