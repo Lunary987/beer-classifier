@@ -10,3 +10,6 @@ Beer classifier 🫀🍺🍻
 Скачать ваше фото(вставьте ссылку на ваш файл с изображением)
 применить download(веса автом. скачиваются из Releases)
 ВСЕ! Теперь модель предскажет к какой марке пива относится ваше изображение
+
+ОБУЧЕНИЕ МОДЕЛИ:
+Я использовала данные из Kaggle(https://www.kaggle.com/datasets/chahinenejma/beer-image-dataset-guiness-carlsberg-chimay)
