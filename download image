@@ -4,8 +4,7 @@ import os
 from PIL import Image
 from torchvision import transforms
 from torchvision.transforms import v2
-#input here image with beer()
-
+import urllib.request
 import torch
 from torchvision import models
 
