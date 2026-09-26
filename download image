@@ -20,15 +20,15 @@ transform = v2.Compose([
 ])
 
 
-image = Image.open('YOUR FILE IS HERE').convert('RGB')
+image = Image.open(r'YOUR FILE IS HERE').convert('RGB')
 tensor = transform(image)
 input_tensor = tensor.unsqueeze(0)
 
-WEIHTS_URL = https://github.com/Lunary987/beer-classifier/releases/tag/Trained_model_weights
+WEIHTS_URL = r'https://github.com/Lunary987/beer-classifier/releases/tag/Trained_model_weights'
 WEIGTHS_PATH = "model_weights.pth"   #  ИМЯ файла на вашем диске
 
-if not os.path.exists(WEIGHTS_PATH):    
-    urllib.request.urlretrieve(WEIGHTS_URL, WEIGHTS_PATH)
+if not os.path.exists(WEIGTHS_PATH):    
+    urllib.request.urlretrieve(WEIHTS_UR, WEIGTHS_PATH)
 
 model = models.resnet18(weights = None)
 model.fc= torch.nn.Linear(model.fc.in_features, 6)
