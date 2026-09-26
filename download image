@@ -24,7 +24,7 @@ tensor = transform(image)
 input_tensor = tensor.unsqueeze(0)
 
 WEIHTS_URL = r'https://github.com/Lunary987/beer-classifier/releases/tag/Trained_model_weights'
-WEIGTHS_PATH = "model_weights.pth"   #  ИМЯ файла на вашем диске
+WEIGTHS_PATH = "model_weights.pth"  
 
 if not os.path.exists(WEIGTHS_PATH):    
     urllib.request.urlretrieve(WEIHTS_UR, WEIGTHS_PATH)
