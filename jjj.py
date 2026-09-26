@@ -117,7 +117,3 @@ accuracy = 100 * correct / total
 print(f'Accuracy: {accuracy:.2f}%') #79 - 83%
 
 
-# import matplotlib.pyplot as plt
-# можно по приколу добавить визуала
-# как сорхр и добавить фото
-# git
