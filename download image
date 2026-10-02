@@ -26,7 +26,7 @@ input_tensor = tensor.unsqueeze(0)
 WEIGHTS_URL = r'https://github.com/Lunary987/beer-classifier/releases/tag/Trained_model_weights'
 WEIGHTS_PATH = "model_weights.pth"  
 
-if not os.path.exists(WEIGTHS_PATH):    
+if not os.path.exists(WEIGHTS_PATH):    
     urllib.request.urlretrieve(WEIGHTS_URL, WEIGHTS_PATH)
 
 model = models.resnet18(weights = None)
